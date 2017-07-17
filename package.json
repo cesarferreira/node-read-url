@@ -1,6 +1,6 @@
 {
   "name": "node-read-url",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reads an URL into a string",
   "author": {
     "name": "Cesar Ferreira",
