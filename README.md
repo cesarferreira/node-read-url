@@ -1,24 +1,24 @@
-# read-url
+# node-read-url
 > Reads an URL into a string
 
 <p align="center">
   <img src="ss.png" width="100%" />
 </p>
 
-[![Build Status](https://travis-ci.org/cesarferreira/read-url.svg?branch=master)](https://travis-ci.org/cesarferreira/read-url)
-[![npm](https://img.shields.io/npm/dt/read-url.svg)](https://www.npmjs.com/package/read-url)
-[![npm](https://img.shields.io/npm/v/read-url.svg)](https://www.npmjs.com/package/read-url)
+[![Build Status](https://travis-ci.org/cesarferreira/node-read-url.svg?branch=master)](https://travis-ci.org/cesarferreira/node-read-url)
+[![npm](https://img.shields.io/npm/dt/node-read-url.svg)](https://www.npmjs.com/package/node-read-url)
+[![npm](https://img.shields.io/npm/v/node-read-url.svg)](https://www.npmjs.com/package/node-read-url)
 
 ## Install
 
 ```sh
-yarn add read-url
+yarn add node-read-url
 ```
 
 ## Usage
 
 ```js
-require('read-url')
+require('node-read-url')
   .promise('https://raw.githubusercontent.com/cesarferreira/dryrun/master/LICENSE')
   .then(response => {
     log(response)

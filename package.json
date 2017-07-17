@@ -1,5 +1,5 @@
 {
-  "name": "read-url",
+  "name": "node-read-url",
   "version": "0.0.0",
   "description": "Reads an URL into a string",
   "author": {
@@ -15,7 +15,6 @@
   "main": "index.js",
   "keywords": [],
   "dependencies": {
-    "chalk": "^2.0.1",
     "node-time-log": "^1.0.3",
     "request": "^2.81.0",
     "update-notifier": "^2.2.0"
@@ -26,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cesarferreira/read-url.git"
+    "url": "https://github.com/cesarferreira/node-read-url.git"
   },
   "bugs": {
-    "url": "https://github.com/cesarferreira/read-url/issues"
+    "url": "https://github.com/cesarferreira/node-read-url/issues"
   },
-  "homepage": "https://github.com/cesarferreira/read-url#readme",
+  "homepage": "https://github.com/cesarferreira/node-read-url#readme",
   "license": "MIT"
 }

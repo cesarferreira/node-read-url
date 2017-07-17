@@ -1,5 +1,4 @@
 const readUrl = require('./index.js')
-const log = require('node-time-log').SimpleLog;
 
 readUrl
 	.promise('https://raw.githubusercontent.com/cesarferreira/dryrun/master/LICENSE')
@@ -8,4 +7,4 @@ readUrl
 		})
 		.catch(err => {
 			log(err);
-});
+		});
