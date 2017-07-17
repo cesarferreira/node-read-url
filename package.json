@@ -15,9 +15,7 @@
   "main": "index.js",
   "keywords": [],
   "dependencies": {
-    "node-time-log": "^1.0.3",
-    "request": "^2.81.0",
-    "update-notifier": "^2.2.0"
+    "got": "^7.1.0"
   },
   "devDependencies": {
     "eslint": "^4.2.0",

@@ -21,10 +21,10 @@ yarn add node-read-url
 require('node-read-url')
   .promise('https://raw.githubusercontent.com/cesarferreira/dryrun/master/LICENSE')
   .then(response => {
-    log(response)
+    console.log(response)
   })
   .catch(err => {
-    log(err)
+    console.log(err)
   });
 
 ```

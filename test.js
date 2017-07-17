@@ -1,10 +1,10 @@
-const readUrl = require('./index.js')
+const readUrl = require('./index.js');
 
 readUrl
 	.promise('https://raw.githubusercontent.com/cesarferreira/dryrun/master/LICENSE')
 		.then(response => {
-			log(response);
+			console.log(response);
 		})
 		.catch(err => {
-			log(err);
+			console.log(err);
 		});
